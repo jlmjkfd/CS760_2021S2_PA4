@@ -1,0 +1,24 @@
+These files contain the titles of every paper to appear 
+in the Proceedings of the National Academy of Sciences (USA)
+from its inception in 1915 until March2005 when the data
+was collected, along with the date of publication of each paper. 
+The data was obtained by crawling the PNAS website and downloading 
+the table of contents from every issue of every volume and 
+then parsing these with some python scripts.
+This yielded about 80,000 papers over the years 1915-2005. 
+
+There are two files, alltitles, which contains one paper title
+per line and alltimes which contains one line per issue indicating
+first the number of papers in that issue and next the publication
+date of the issue in seconds with Jan1, 1970 = 0seconds.
+
+The titles have been downcased and all nonascii symbols have
+been removed but no stopword removal or other tokenization
+is done to these raw files.
+
+Enjoy!
+
+Sam Roweis, March 2005
+roweis@cs.toronto.edu
+
+
